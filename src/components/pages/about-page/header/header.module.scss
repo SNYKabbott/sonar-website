@@ -1,0 +1,65 @@
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    &__image {
+        height: 100%;
+        width: 50%;
+        background: url('../../../../images/about-page-header.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__info {
+        width: 50%;
+        background-color: #222;
+        height: 100%;
+        padding: 0 3.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .line {
+            height: .05rem;
+            background-color: white;
+            width: 6rem;
+            margin-top: 2.5rem;
+        }
+
+        h1 {
+            color: white;
+            margin: 1.5rem 0;
+            font-size: 2.85rem;
+            font-weight: 300;    
+            line-height: 3.25rem;  
+        }
+
+        p {
+            color: white;
+            font-size: 1rem;
+            font-weight: 300;
+            opacity: .85;
+            line-height: 1.65rem;
+        }
+
+        &__button {
+            color: white;
+            border: .1rem solid white;
+            font-size: .85rem;
+            text-transform: uppercase;
+            padding: 1.5rem 0;
+            text-decoration: none;
+            margin-top: 1.5rem;
+            width: 11rem;
+            text-align: center;
+            transition: all .35s;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}

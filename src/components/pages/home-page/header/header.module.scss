@@ -1,0 +1,77 @@
+.header {
+    height: 100vh;
+    width: 100vw;
+}
+
+.imageList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+
+    &__item {
+        height: 100vh;
+        transition: transform 1s;
+        position: relative;
+        background-image: url('../../../../images/header-bg-image1.png');
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+
+        .line {
+            height: .1rem;
+            width: 7.5rem;
+            background-color: white;
+        }
+
+        .content {
+            color: white;
+            padding: 0 2.5rem;
+            position: absolute;
+            bottom: 3rem;
+            transition: all .5s;
+            transform: translateY(70%);
+
+            h3 {
+                font-size: 2.15rem;
+                font-weight: 300;
+                letter-spacing: .05rem;
+                margin: 1.75rem 0 2.5rem;
+                opacity: .85;
+            }
+
+            p {
+                font-size: .9rem;
+                font-weight: 300;
+                line-height: 1.55rem;
+                transition: all 1.5s;
+            }
+        }
+
+        img {
+            max-height: 100%;
+            object-fit: cover;
+        }
+
+        &:hover {
+            .content {
+                transform: translateY(0);
+            }
+        }
+    }
+}
+
+.secondItem {
+    background-image: url('../../../../images/header-bg-image2.png');
+}
+
+.thirdItem {
+    background-image: url('../../../../images/header-bg-image3.png');
+}
+
+.fourthItem {
+    background-image: url('../../../../images/header-bg-image4.png');
+}
