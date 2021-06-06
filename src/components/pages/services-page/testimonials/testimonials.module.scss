@@ -1,0 +1,45 @@
+.testimonials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    width: 75rem;
+    max-width: 90%;
+    margin: 5rem auto;
+
+    &__overlay {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #efefef;
+        height: 35rem;
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5rem;
+
+        .line {
+            height: .1rem;
+            background-color: #2f2f2f;
+            width: 5.5rem;
+        }
+
+        h3 {
+            font-size: 2.75rem;
+            font-weight: 300;
+            letter-spacing: .1rem;
+            color: #2f2f2f;
+            margin: 1.75rem 0 0;
+        }
+    }
+
+    &__image {
+        width: 80%;
+
+        img {
+            width: 100%;
+        }
+    }
+}

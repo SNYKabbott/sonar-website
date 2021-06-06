@@ -1,0 +1,38 @@
+.services {
+    &__list {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75rem;
+        max-width: 90%;
+        margin: 5rem auto 2.5rem;
+
+        &Item {
+            width: 31%;
+            margin-bottom: 2.5rem;
+
+            .icon {
+                font-size: 2rem;
+                color: #2f2f2f;
+            }
+
+            h5 {
+                font-size: 1.85rem;
+                font-weight: 300;
+                margin: .75rem 0 1.25rem;
+                color: #2f2f2f;
+            }
+
+            p {
+                font-size: .95rem;
+                font-weight: 300;
+                color: #2f2f2f;
+                line-height: 1.75rem;
+                opacity: .75;
+            }
+        }
+    }
+}
