@@ -1,0 +1,33 @@
+.stats {
+    &__list {
+        padding: 0;
+        list-style: none;
+        width: 60rem;
+        max-width: 70rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 7.5rem auto;
+
+        &Item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+
+            h3 {
+                font-size: 2.75rem;
+                font-weight: 300;
+                color: #2f2f2f;
+                margin: 1.75rem 0 .5rem;
+            }
+
+            span {
+                color: #2f2f2f;
+                opacity: .75;
+                font-weight: 200;
+                font-size: 1rem;
+            }
+        }
+    }
+}
