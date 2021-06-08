@@ -1,0 +1,34 @@
+.footer {
+    background-color: #f8f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.5rem 0 5rem;
+
+    h2 {
+        font-size: 3.5rem;
+        font-weight: 200;
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 2rem;
+        margin: .75rem 0 3.5rem;
+    }
+
+    &__button {
+        text-decoration: none;
+        color: #2f2f2f;
+        border: .1rem solid #2f2f2f;
+        text-transform: uppercase;
+        font-size: .85rem;
+        font-weight: 400;
+        padding: 1.25rem 2.75rem;
+        transition: all .35s;
+
+        &:hover {
+            background-color: #2f2f2f;
+            color: white;
+        }
+    }
+}

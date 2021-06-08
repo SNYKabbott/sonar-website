@@ -5,6 +5,7 @@ import Header from '../services-page/header/header';
 import Services from '../services-page/services/services';
 import Testimonials from '../services-page/testimonials/testimonials';
 import Stats from '../services-page/stats/stats';
+import Footer from '../services-page/footer/footer';
 
 const servicesPage = () => {
     return (
@@ -14,6 +15,7 @@ const servicesPage = () => {
             <Services />
             <Testimonials />
             <Stats />
+            <Footer />
         </div>
     );
 };
