@@ -1,6 +1,6 @@
 .owl-dots {
     position: absolute;
-    left: -13.5%;
+    left: 4.5rem;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
@@ -18,4 +18,8 @@
 
 .owl-dot.active {
     background-color: #2f2f2f !important;
+}
+
+.owl-carousel {
+    position: initial;
 }

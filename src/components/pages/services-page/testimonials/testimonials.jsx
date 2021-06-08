@@ -41,9 +41,7 @@ const testimonials = () => {
                     </div>
                 </OwlCarousel>
             </div> {/*-- .testimonials__overlay end --*/}
-            <div className={styles.testimonials__image}>
-                <img src="https://preview.colorlib.com/theme/sonar/img/bg-img/tes.jpg.webp" alt="Rocky Mountains"/>
-            </div> {/*-- .testimonials__image end --*/}
+            <div className={styles.testimonials__image}></div> {/*-- .testimonials__image end --*/}
         </div>
     );
 };
