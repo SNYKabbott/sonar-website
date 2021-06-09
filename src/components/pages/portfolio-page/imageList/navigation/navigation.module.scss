@@ -1,0 +1,13 @@
+.navigationList {
+    position: absolute;
+    right: 3rem;
+    top: -2rem;
+    z-index: 100;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    &__item {
+        color: white;
+    }
+}

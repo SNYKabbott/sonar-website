@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    padding: .1rem;
+}
+
+.imageList {
+    width: 80rem;
+    max-width: 95%;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
