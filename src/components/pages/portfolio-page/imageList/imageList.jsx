@@ -29,6 +29,26 @@ const imageList = () => {
                     title="Girl laying in hay"
                     span="Portrait"
                 />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/x5.jpg.pagespeed.ic.QiVN0dlzXx.webp"
+                    title="Russia in August"
+                    span="Landscape"
+                />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/x6.jpg.pagespeed.ic.6V84RJmvIi.webp"
+                    title="Mountain view"
+                    span="Portrait"
+                />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/x7.jpg.pagespeed.ic.B8aygvqiDf.webp"
+                    title="Snowy mountains"
+                    span="Landscape"
+                />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/x8.jpg.pagespeed.ic.3qVg2rT9Is.webp"
+                    title="Latern on lake"
+                    span="Portrait"
+                />
             </div> {/*-- .imageList end --*/}
         </div>
     );

@@ -4,7 +4,7 @@ import styles from './navigation.module.scss';
 const navigation = () => {
     return (
         <ul className={styles.navigationList}>
-            <li className={styles.navigationList__item}>
+            <li className={`${styles.navigationList__item} ${styles.activeLink}`}>
                 All
             </li>
             <li className={styles.navigationList__item}>
