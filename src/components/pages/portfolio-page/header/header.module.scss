@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+
+    &__image {
+        width: 50%;
+        height: 100%;
+        background: url('https://preview.colorlib.com/theme/sonar/img/bg-img/portfolio.jpg.webp');
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__info {
+        width: 50%;
+        height: 100%;
+        background-color: #212529;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 7.5rem;
+
+        .line {
+            background-color: white;
+            height: .05rem;
+            width: 5.5rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            color: white;
+            margin: 1.25rem 0 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            color: white;
+            opacity: .85;
+            line-height: 1.75rem;
+        }
+
+        &__button {
+            font-size: .85rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            border: .1rem solid white;
+            padding: 1.5rem 0;
+            color: white;
+            text-decoration: none;
+            width: 11rem;
+            text-align: center;
+            margin-top: 2.5rem;
+            transition: all .35s;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
