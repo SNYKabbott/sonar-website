@@ -49,6 +49,26 @@ const imageList = () => {
                     title="Latern on lake"
                     span="Portrait"
                 />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/x9.jpg.pagespeed.ic.nKMNi4M_RP.webp"
+                    title="Latern on lake"
+                    span="Portrait"
+                />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/10.jpg.webp"
+                    title="Latern on lake"
+                    span="Portrait"
+                />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/11.jpg.webp"
+                    title="Latern on lake"
+                    span="Portrait"
+                />
+                <ImageItem 
+                    imageSrc="https://preview.colorlib.com/theme/sonar/img/portfolio-img/12.jpg.webp"
+                    title="Latern on lake"
+                    span="Portrait"
+                />
             </div> {/*-- .imageList end --*/}
         </div>
     );
