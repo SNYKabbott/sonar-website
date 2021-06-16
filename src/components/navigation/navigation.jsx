@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './navigation.module.scss';
+import styles from './Navigation.module.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
@@ -11,7 +11,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
-class navigation extends Component {
+class Navigation extends Component {
     constructor(props) {
         super(props);
         this.mainNavigation = React.createRef();
@@ -92,7 +92,7 @@ class navigation extends Component {
                             <div className={styles.line}></div>
                         </li>
                         <li className={styles.mainNavigation__listItem}>
-                            <a href="placeholder">Contant</a>
+                            <a href="placeholder">Contact</a>
                             <div className={styles.line}></div>
                         </li>
                     </ul>
@@ -107,4 +107,4 @@ class navigation extends Component {
     }
 };
 
-export default navigation;
+export default Navigation;
