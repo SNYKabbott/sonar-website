@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
 import styles from './ContactForm.module.scss';
 
 interface ContactFormProps {
@@ -7,9 +7,11 @@ interface ContactFormProps {
 };
 
 const ContactForm: React.FC<ContactFormProps> = ({isNew, userInput}) => {
+    const headingRef = useRef<HTMLHeadingElement>(document.createElement('h1'));
+
     return (
         <div className={styles.contactForm}>
-            {isNew ? <h1>{userInput}</h1> : null}
+            <h1 ref={headingRef} onClick={() => console.log(headingRef.current.innerHTML)}>23</h1>
         </div>
     );
 };
